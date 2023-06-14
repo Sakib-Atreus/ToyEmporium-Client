@@ -16,7 +16,7 @@ const EdiToy = () => {
     form.reset();
     console.log(data.price);
     const update ={price , quantity,details ,name};
-    fetch(`http://localhost:5007/allToys/${data._id}`,{
+    fetch(`https://toy-emporium-server-nine.vercel.app/allToys/${data._id}`,{
       method:"PUT",
       headers:{
         "content-type":"application/json"

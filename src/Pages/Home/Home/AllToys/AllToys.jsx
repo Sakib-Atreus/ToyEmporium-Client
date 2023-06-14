@@ -14,7 +14,7 @@ const AllToys = () => {
 
     useEffect( () => {
         setLoading(true)
-        fetch("http://localhost:5007/allToys")
+        fetch("https://toy-emporium-server-nine.vercel.app/allToys")
         .then(result => result.json())
         .then(data=>{
             setToys(data)

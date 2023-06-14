@@ -24,7 +24,7 @@ const MyToys = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5007/myToys/${user?.email}`)
+        fetch(`https://toy-emporium-server-nine.vercel.app/myToys/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -34,7 +34,7 @@ const MyToys = () => {
     }, [user])
 
     const handleSearch = () => {
-        fetch(`http://localhost:5007/searchText/${searchText}`)
+        fetch(`https://toy-emporium-server-nine.vercel.app/searchText/${searchText}`)
           .then((res) => res.json())
           .then((data) => {
             console.log(data);
@@ -62,7 +62,7 @@ const handleDelete =_id =>{
       }).then((result) => {
         if (result.isConfirmed) {
        
-        fetch(`http://localhost:5007/myToys/${_id}`,{
+        fetch(`https://toy-emporium-server-nine.vercel.app/myToys/${_id}`,{
             method:'DELETE'
         })
         .then(res=>res.json())

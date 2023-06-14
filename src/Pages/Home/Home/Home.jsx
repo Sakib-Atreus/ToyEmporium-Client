@@ -12,7 +12,7 @@ import Tabs from "./Tabs/Tabs";
 
 const Home = () => {
     useEffect ( () => {
-        document.title = "Toy World";
+        document.title = "Toy Emporium";
     },[])
     return (
         <div>

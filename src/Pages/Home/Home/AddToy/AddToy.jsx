@@ -10,7 +10,7 @@ const AddToy = () => {
     } = useForm();
     const onSubmit = (data) => {
         console.log(data);
-        fetch('http://localhost:5007/addToy', {
+        fetch('https://toy-emporium-server-nine.vercel.app/addToy', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
