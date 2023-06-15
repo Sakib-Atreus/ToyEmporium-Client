@@ -34,7 +34,6 @@ const Navbar = () => {
 
   </>
 
-
   const handleLogOut = () => {
     logOut(auth)
       .then(result => { result })
