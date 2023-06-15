@@ -14,7 +14,7 @@ const Navbar = () => {
   if (loading) {
     return <div className="bg-black lg:p-80 p-40">
 
-      <div className="radial-progress text-red-600" style={{ "--value": 80 }}>Loading............................................80%</div>
+      <div className="radial-progress text-orange-500 text-center" style={{ "--value": 70 }}>Loading......................................70%</div>
 
     </div>
   }
