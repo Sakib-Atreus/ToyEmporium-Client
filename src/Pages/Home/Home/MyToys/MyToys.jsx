@@ -94,7 +94,7 @@ const handleDelete =_id =>{
                     <img className="w-full" src="https://c1.wallpaperflare.com/preview/872/726/486/action-ai-android-artificial-intelligence.jpg" alt="" />
                 </div>
             </div>
-            <h1 className="text-center m-2 bg-black text-red-400 p-4 font-black text-4xl rounded-full">My Toy{"'"}s !</h1>
+            <h1 className="text-center m-2 bg-black text-red-400 p-4 font-black text-4xl rounded-full">My Toy{"'"}s</h1>
             <div className="search-box  text-center">
                 <input
                
