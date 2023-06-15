@@ -112,7 +112,7 @@ export default function Example() {
 
   return (
     <div>
-      <h1 className="text-center m-2 bg-black text-red-400 p-4 font-black text-4xl rounded-full">Tabs Section !</h1>
+      <h1 className="text-center m-2 bg-black text-red-400 p-4 font-black text-4xl rounded-full">Tab{"'"}s of Toy{"'"}s !</h1>
 
       <div className="w-full max-w-full px-2 py-16 sm:px-0">
 
