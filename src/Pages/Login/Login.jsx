@@ -34,7 +34,6 @@ const Login = () => {
     const from = location.state?.from?.pathname || "/";
 
 
-
     const handleGoogleSignIn = () => {
         signInWithPopup(auth, googleProvider)
             .then(result => {
