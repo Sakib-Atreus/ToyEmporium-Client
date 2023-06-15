@@ -9,9 +9,9 @@ const Album = () => {
 
       <div className=" p-3 mt-2 lg:hidden md:hidden d-block rounded-xl items-center h-full flex  bottom-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0) 100%);]">
         <div className='text-white space-y-7 pl-4  ps-7   '>
-          <h2 className='text-6xl font-bold'>Let<span className="bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 bg-clip-text text-transparent">&#39;</span>s <span className="bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 bg-clip-text text-transparent">Play</span>!
+          <h2 className='text-4xl font-bold'>Let<span className="bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 bg-clip-text text-transparent">&#39;</span>s <span className="bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 bg-clip-text text-transparent">Play</span>!
             with Children</h2>
-          <p className="text-xl">Give children toys that are powered by their imagination,<br /> not by batteries.They are Our next generation</p>
+          <p className="text-lg">Give children toys that are powered by their imagination,<br /> not by batteries.They are Our next generation</p>
           <div className="grid">
             <Link to="/login"><button className='mb-3 btn w-3/4 text-black font-bold bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400  mr-5'>LOG-IN</button></Link>
             <Link to="/blogs"> <button className='w-3/4 btn text-orange-300 border-pink-500 hover:bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 font-bold hover:text-black'>BLOGS</button></Link>
