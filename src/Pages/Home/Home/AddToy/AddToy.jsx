@@ -41,7 +41,7 @@ const AddToy = () => {
                 <h1></h1>
             </div>
             <div className="bg-gradient-to-r from-[#fb4a76] to-[#ffb199] rounded p-2" >
-                <h1 className="text-left font-black ps-5 text-5xl mt-5 mb-4">Add Your ToYs </h1>
+                <h1 className="text-left font-black ps-5 text-5xl mt-5 mb-4">Add Your Toy{"'"}s </h1>
                 <p className='text-left font-bold p-5'>NB: You can Add your toys in Our website.This is Best platform for our Child.<br />You Can find proper Toy what you have needed ! PLEASE <br /> give the true and right information.<br /> # Thank You #</p>
                 <span className="flex justify-center gap-3 text-5xl "><MdToys /><MdToys /><MdToys /></span>
                 <h2 className="text-center justify-end mb-5">________________________________________</h2>
