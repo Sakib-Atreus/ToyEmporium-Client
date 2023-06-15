@@ -14,7 +14,7 @@ const Album = () => {
           <p className="text-lg">Give children toys that are powered by their imagination,<br /> not by batteries.They are Our next generation</p>
           <div className="grid">
             <Link to="/login"><button className='mb-3 btn w-3/4 text-black font-bold bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400  mr-5'>LOG-IN</button></Link>
-            <Link to="/blogs"> <button className='w-3/4 btn text-orange-300 border-pink-500 hover:bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 font-bold hover:text-black'>BLOGS</button></Link>
+            <Link to="/blogs"> <button className='w-3/4 btn text-orange-300 border-pink-500 hover:bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 font-bold hover:text-black'>BLOG{"'"}S</button></Link>
           </div>
         </div>
       </div>
