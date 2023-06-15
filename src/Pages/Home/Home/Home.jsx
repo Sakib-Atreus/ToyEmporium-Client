@@ -16,14 +16,13 @@ const Home = () => {
     },[])
     return (
         <div>
-             <Banner></Banner>
-             <Album></Album>
-             <Aos></Aos>
-          <Tabs></Tabs>
+            <Banner></Banner>
+            <Album></Album>
+            <Aos></Aos>
+            <Tabs></Tabs>
             <Section></Section>
             <SectionTwo></SectionTwo>
             <SectionTree></SectionTree>
-            
         </div>
     );
 };
