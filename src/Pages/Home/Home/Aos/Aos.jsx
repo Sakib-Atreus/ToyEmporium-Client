@@ -1,8 +1,4 @@
-// import React from 'react';
-// import Left from "./Left";
-// import Right from "./Right";
 
-//import{ img } from "../../../../../assets/Panda/panda/couple-teddy-cute-love-bear.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,10 +34,6 @@ const Aos = () => {
           
         </div>
         </div>
-      
-
-
-       
     );
 };
 
