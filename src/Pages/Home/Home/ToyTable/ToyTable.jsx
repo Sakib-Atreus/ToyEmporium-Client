@@ -18,7 +18,7 @@ const ToyTable = ({ toy }) => {
                 <td className="text-center border-black text-black bg-red-300">{price}</td>
                 <td className="text-center border-black text-white bg-gray-400">{quantity}</td>
 
-                <th className="bg-pink-100 text-center"> 
+                <th className="bg-pink-100 text-center border-black"> 
                     <Link to={`/details/${_id}`}> <button className="btn btn-ghost btn-xs bg-black text-white">details</button></Link>
                 </th>
                
