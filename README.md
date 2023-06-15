@@ -1,6 +1,6 @@
-## $${\color{yellow}Toy's Emporium}$$
+# $${\color{yellow}Toy's Emporium}$$
 
-# Website Feature :
+## Website Feature :
 1. User can Login and SignUp by creating account
 2. View all toy's of our website
 3. Check details of each toy
@@ -10,4 +10,4 @@
 7. Tab section for show toy's category
 8. AOS album for show animation!
 
-# Live Site : https://toy-emporium-f67e8.web.app/
+## Live Site : https://toy-emporium-f67e8.web.app/
