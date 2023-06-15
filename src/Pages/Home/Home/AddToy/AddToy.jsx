@@ -65,7 +65,7 @@ const AddToy = () => {
                             {...register("email", { required: true })} />
                     </div>
                     <div>
-                        <h5 className="font-bold mt-3">Photo :</h5>
+                        <h5 className="font-bold mt-3">Photo URL :</h5>
                         <input className="p-2  w-full text-black   bg-pink-200 border border-black rounded-3xl" defaultValue=""
                             {...register("photoURL")} />
                     </div>
