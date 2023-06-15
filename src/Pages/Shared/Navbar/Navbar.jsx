@@ -60,7 +60,7 @@ const Navbar = () => {
         <div>
           <Link to="/" className=" text-xl"><img className=" h-20 w-20 rounded-full" src="https://cdn-icons-png.flaticon.com/128/5190/5190335.png" alt="" /></Link>
         </div>
-        <h2 className="text-3xl font-black bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 bg-clip-text text-transparent">{"Toy's Emporium"}</h2>
+        <h2 className="lg:text-3xl md:text-2xl sm:text-xl font-black bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 bg-clip-text text-transparent">{"Toy's Emporium"}</h2>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
