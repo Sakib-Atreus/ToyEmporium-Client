@@ -16,7 +16,7 @@ const Banner = () => {
                         <p className="hidden md:hidden lg:block text-xl">Give children toys that are powered by their imagination,<br/> not by batteries.They are Our next generation</p>
                         <div >
                             <Link to="/login"><button className='text-xl w-3/4 mb-3 hidden  md:block  lg:block btn text-black font-bold bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 mr-5'>LOG-IN</button></Link>
-                           <Link to="/blogs"> <button className='text-lg w-3/4 hidden  md:block  lg:block btn btn-outline text-orange-300 border-pink-500 hover:bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 font-bold hover:text-black'>BLOGS</button></Link>
+                           <Link to="/blogs"> <button className='text-lg w-3/4 hidden  md:block  lg:block btn btn-outline text-orange-300 border-pink-500 hover:bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 font-bold hover:text-black'>BLOG{"'"}S</button></Link>
                         </div>
                     </div>
                 </div>
