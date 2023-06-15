@@ -8,7 +8,7 @@ const Blogs = () => {
     return (
         <div>
             <div>
-                <h1 className="text-center m-2 bg-black text-red-500 p-4 font-black text-4xl rounded-full">** Blogs **</h1>
+                <h1 className="text-center m-2 bg-black text-red-500 p-4 font-black text-4xl rounded-full">** Blog{"'"}s **</h1>
             </div>
             <div className="bg-black border rounded-3xl">
 
