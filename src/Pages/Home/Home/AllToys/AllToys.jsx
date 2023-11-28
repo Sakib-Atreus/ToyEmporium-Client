@@ -56,6 +56,7 @@ const AllToys = () => {
                             <th className="bg-black border rounded text-center text-white">Price</th>
                             <th className="bg-black border rounded text-center text-white" >Quantity</th>
                             <th className="bg-black border rounded text-center text-white">Details</th>
+                            <th className="bg-black border rounded text-center text-white">Buy Toy</th>
                         </tr>
                     </thead>
                     <tbody className="bg-white">

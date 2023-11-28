@@ -1,16 +1,18 @@
 // import React from 'react';
 // picture, toy name, seller name, seller email, price, rating, available quantity, and detail description)
-import { useEffect } from "react";
-import { useLoaderData } from "react-router-dom";
 
+import { useEffect } from "react";
+import { Link, useLoaderData } from "react-router-dom";
 
 const Details = () => {
 
     const singleDetails = useLoaderData();
-    const { name, sellerName, email, price, Rating, quantity, details,photoURL } = singleDetails
+    const { _id, name, sellerName, email, price, Rating, quantity, details,photoURL } = singleDetails
     useEffect ( () => {
         document.title = `Details | ${name}`;
     },[name])
+
+
     return (
         <div className="text-center justify-center items-center ">
            
@@ -27,11 +29,16 @@ const Details = () => {
                         <h2>Price: $ {price}</h2>
                         <h2>Quantity: {quantity}</h2>
                         <h2 className="pb-5">________________________________________</h2>
+                        <Link to={`/buyToy/${_id}`} > 
+                        <button className="btn btn-outline hover:bg-white bg-gradient-to-r from-[#ff0844] via-[#ffb199] to-orange-400 text-black w-full mt-3 mb-3 font-bold hover:bg-gradient-to-r hover:from-black hover:via-black hover:to-black hover:text-white hover:border-2 hover:border-red-400" >
+                        BUY NOW
+                        </button>
+                       
+                        </Link>
                     </div>
+                    
                 </div>
-
             </div>
-           
         </div>
     );
 };

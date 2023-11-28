@@ -6,6 +6,7 @@ import { AuthContext } from "../../../Providers/AuthProvider";
 import { getAuth } from "firebase/auth";
 import app from "../../../Firebase/firebase.config";
 // import { useState } from "react";
+import { IoIosNotifications } from "react-icons/io";
 
 
 const Navbar = () => {
@@ -66,7 +67,9 @@ const Navbar = () => {
           {navItems}
         </ul>
       </div>
+      
       <div className="navbar-end">
+      <Link to="selToys"><IoIosNotifications className="w-12 h-8 text-red-400" /></Link>
 
         {
           user ?

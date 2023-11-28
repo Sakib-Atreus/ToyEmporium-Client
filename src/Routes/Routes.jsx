@@ -14,6 +14,8 @@ import Blogs from "../Pages/Home/Home/Blogs/Blogs";
 import MyToys from "../Pages/Home/Home/MyToys/MyToys";
 import EditToy from "../Pages/Home/Home/EditToy/EditToy";
 import Offer from "../Pages/Home/Home/Section/Offer/Offer";
+import BuyToy from "../Pages/Home/Home/Details/BuyToy";
+import Notification from "../Pages/Home/Home/Details/Notification";
 
 
 const router = createBrowserRouter([
@@ -35,6 +37,16 @@ const router = createBrowserRouter([
                 path: '/details/:id',
                 element: <PrivateRoute><Details></Details></PrivateRoute>,
                 loader: ({ params }) => fetch(`https://toy-emporium-server-nine.vercel.app/allToys/${params.id}`)
+            },
+            {
+                path: '/buyToy/:id',
+                element: <PrivateRoute><BuyToy></BuyToy></PrivateRoute>,
+                loader: ({ params }) => fetch(`https://toy-emporium-server-nine.vercel.app/allToys/${params.id}`)
+            },
+            {
+                path: '/selToys',
+                element:<PrivateRoute><Notification></Notification></PrivateRoute>,
+                // loader: ({ params }) => fetch(`https://toy-emporium-server-nine.vercel.app/myToys/${params.email}`)
             },
             {
                 path: '/addToy',

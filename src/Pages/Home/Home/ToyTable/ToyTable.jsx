@@ -21,6 +21,9 @@ const ToyTable = ({ toy }) => {
                 <th className="bg-pink-100 text-center border-black"> 
                     <Link to={`/details/${_id}`}> <button className="btn btn-ghost btn-xs bg-black text-white">details</button></Link>
                 </th>
+                <th className="bg-pink-100 text-center border-black"> 
+                    <Link to={`/buyToy/${_id}`}> <button className="btn btn-ghost btn-xs bg-black text-white">purchase</button></Link>
+                </th>
                
             </tr>
         </>
