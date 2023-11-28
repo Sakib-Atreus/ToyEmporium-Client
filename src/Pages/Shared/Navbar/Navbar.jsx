@@ -31,7 +31,7 @@ const Navbar = () => {
     <li className="font-bold bg-gradient-to-r from-[#ff0844] to-[#ffb199] bg-clip-text text-transparent"><Link to="/allToys">All Toys</Link></li>
     <li className="font-bold bg-gradient-to-r from-[#ff0844] to-[#ffb199] bg-clip-text text-transparent"><Link to="/myToys">My Toys</Link></li>
     <li className="font-bold bg-gradient-to-r from-[#ff0844] to-[#ffb199] bg-clip-text text-transparent"><Link to="/addToy">Add a Toys</Link></li>
-    <li className="font-bold bg-gradient-to-r from-[#ff0844] to-[#ffb199] bg-clip-text text-transparent"><Link to="/blogs">Blogs</Link></li>
+    <li className="font-bold bg-gradient-to-r from-[#ff0844] to-[#ffb199] bg-clip-text text-transparent"><Link to="/blogs">Contact</Link></li>
 
   </>
 
